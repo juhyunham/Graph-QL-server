@@ -1,0 +1,8 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/juhyunham/Graph-QL-server.git",
+  "author": "Juham",
+  "license": "MIT"
+}
