@@ -2,8 +2,29 @@
 
 1. 첫시작
 
+- graphql-yoga설치
+
 ```
 npm i @graphql-yoga/node@alpha graphql
+```
+
+- nodemon 설치
+
+```
+yarn global add nodemon
+```
+
+- babel 설치
+
+```
+yarn global add babel-cli --ignore-engines
+yarn add babel-node --dev
+```
+
+- babel.rc 파일 작성 후
+
+```
+yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ```
 
 2. 문제점
@@ -30,3 +51,6 @@ npm i @graphql-yoga/node@alpha graphql
   세가지 요청을 해야하는데
 
 예를들면, 이 모든것들을 한 URL에서 받는것임.
+
+3. Resolvers
+4. schema

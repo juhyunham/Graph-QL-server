@@ -4,5 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/juhyunham/Graph-QL-server.git",
   "author": "Juham",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-yoga/node": "0.1.0-alpha.3",
+    "graphql": "^16.3.0",
+    "graphql-yoga": "^1.14.8"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
