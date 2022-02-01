@@ -1,7 +1,5 @@
 ## Graph-QL setting
 
----
-
 1. 첫시작
 
 ```
