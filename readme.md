@@ -53,4 +53,4 @@ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 예를들면, 이 모든것들을 한 URL에서 받는것임.
 
 3. Resolvers
-4. schema
+4. schema -> 네가 받거나 줄 정보에 대한 서술
