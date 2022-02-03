@@ -1,12 +1,12 @@
-const ham = {
-  name: "hamjuhyun",
-  age: 30,
-  gender: "female",
-};
+import { getMovies, getById, addMovie } from "./db";
 
 const resolvers = {
   Query: {
-    person: () => ham,
+    movies: () => getMovies(),
+    movie: (_, { id }) => getById(id),
+  },
+  Mutation: {
+    addMoive: (_, { name, scroe }) => addMovie(name, score),
   },
 };
 

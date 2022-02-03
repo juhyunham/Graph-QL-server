@@ -1,9 +1,14 @@
-type Ham {
+type Movie {
+  id: Int!
   name: String!
-  age: Int!
-  gender: String!
+  score: Int!
 }
 
 type Query {
-  person: Ham!
+  movies: [Movie]!
+  movie(id: Int!): Movie
+}
+
+type Muation {
+  addMovie(name: String!, score: Int!): Movie!
 }
