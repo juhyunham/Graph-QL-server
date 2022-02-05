@@ -6,8 +6,10 @@
   "author": "Juham",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.25.0",
     "graphql-yoga": "^1.14.8",
-    "node-fetch": "^2.6.5"
+    "node-fetch": "^2.6.5",
+    "babel-polyfill": "^6.26.0"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
